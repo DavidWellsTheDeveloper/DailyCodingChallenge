@@ -9,6 +9,7 @@
 # Very easy problem if I wanted to go back and improve it with "invalid" input handling that might make it more
 # interesting.
 
+
 class CodedString:
     def __init__(self, raw_string):
         self.raw_string = raw_string
@@ -39,6 +40,7 @@ class CodedString:
                 for i in range(0, count):
                     self.raw_string += val
         return self.raw_string
+
 
 if __name__ == '__main__':
     codedString = CodedString("AAAABBBCCDAA")
